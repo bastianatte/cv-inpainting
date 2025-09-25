@@ -1,0 +1,18 @@
+name: cv-inpainting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - diffusers
+      - transformers
+      - accelerate
+      - safetensors
+      - pillow
+      - numpy
+      - opencv-python
+      - streamlit
+      - streamlit-drawable-canvas
