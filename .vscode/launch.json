@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit Inpainting",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "streamlit",
+            "args": [
+                "run",
+                "src/app_streamlit.py"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
